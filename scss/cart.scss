@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(233, 238, 243);
-    height: 2000px;
+    overflow: hidden;
     width: 100%;
 }
 @media (max-width: 1400px) {
@@ -144,97 +144,11 @@ body {
         }
     }
 }
-.banner {
-    display: flex;
-    .banner1 {
-        width: 110vh;
-    }
-    .banner2 {
-        width: 110vh;
-    }
-    .banner_text {
-        position: absolute;
-        top: 30vh;
-        left: 80vh;
-        .title_banner {
-            color: rgb(241, 248, 255);
-            font-weight: 900;
-            font-family: "Poppins", sans-serif;
-        }
-        .dec_banner {
-            text-align: center;
-            margin-left: 80px;
-            font-family: "Poppins", sans-serif;
-            font-size: 20px;
-            color: rgb(241, 248, 255);
-        }
-    }
-}
-.featured_products {
-    width: 40vh;
-    height: 2vh;
-    background-color: #b8acac;
-    border-radius: 20px;
-    text-align: center;
-    padding: 1vh;
-    margin-left: 80vh;
-    font-family: "Poppins", sans-serif;
-    margin-top: 4vh;
-}
-.featured_products1 {
-    width: 40vh;
-    height: 2vh;
-    background-color: #d10f0f;
-    border-radius: 20px;
-    text-align: center;
-    padding: 1vh;
-    margin-left: 80vh;
-    font-family: "Poppins", sans-serif;
-    margin-top: 4vh;
-}
 
-.products {
-    display: flex;
-    .products_item {
-        margin-left: 55px;
-        margin-top: 4vh;
-        width: 44vh;
-        height: 50vh;
-        background-color: #ccc;
-        border-radius: 20px;
-        text-align: center;
-        .item {
-            width: 30vh;
-        }
-        .name_items {
-            font-family: "Poppins", sans-serif;
-            color: #797171;
-            font-size: 18px;
-        }
-        .price_items {
-            font-family: "Poppins", sans-serif;
-            color: #797171;
-            font-size: 12px;
-        }
-        .btn {
-            border-radius: 20px;
-            width: 20vh;
-            height: 3vh;
-            margin-top: 7vh;
-            box-shadow: 1px 2px 1px white;
-            border: none;
-            cursor: pointer;
-            &:hover {
-                background-color: #797171;
-            }
-        }
-    }
-}
 .footer {
     position: absolute;
-    bottom: 30px;
     width: 100%;
-    top: 10vh;
+    top: 85vh;
     position: relative;
     height: 15vh;
     background-color: rgb(241, 248, 255);

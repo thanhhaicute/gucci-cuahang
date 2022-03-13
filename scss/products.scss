@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(233, 238, 243);
-    height: 2000px;
     width: 100%;
 }
 @media (max-width: 1400px) {
@@ -144,61 +143,51 @@ body {
         }
     }
 }
-.banner {
-    display: flex;
-    .banner1 {
-        width: 110vh;
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    position: relative;
+    height: 15vh;
+    background-color: rgb(241, 248, 255);
+    .infostore {
+        margin-left: 20vh;
+        padding: 20px;
+        line-height: 19px;
+        text-align: left;
     }
-    .banner2 {
-        width: 110vh;
+    .license {
+        margin-left: 65vh;
     }
-    .banner_text {
-        position: absolute;
-        top: 30vh;
-        left: 80vh;
-        .title_banner {
-            color: rgb(241, 248, 255);
-            font-weight: 900;
-            font-family: "Poppins", sans-serif;
+    .infostore2 {
+        margin-left: 1600px;
+        margin-top: -120px;
+        .iconsc {
+            margin-left: 2vh;
+            vertical-align: top;
         }
-        .dec_banner {
-            text-align: center;
-            margin-left: 80px;
-            font-family: "Poppins", sans-serif;
-            font-size: 20px;
-            color: rgb(241, 248, 255);
-        }
     }
-}
-.featured_products {
-    width: 40vh;
-    height: 2vh;
-    background-color: #b8acac;
-    border-radius: 20px;
-    text-align: center;
-    padding: 1vh;
-    margin-left: 80vh;
-    font-family: "Poppins", sans-serif;
-    margin-top: 4vh;
 }
 .featured_products1 {
     width: 40vh;
     height: 2vh;
-    background-color: #d10f0f;
+    background-color: #fff;
     border-radius: 20px;
     text-align: center;
-    padding: 1vh;
-    margin-left: 80vh;
+    margin-top: 15vh;
+    margin-left: 2vh;
+    padding: 2vh;
     font-family: "Poppins", sans-serif;
-    margin-top: 4vh;
 }
-
-.products {
-    display: flex;
+#products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     .products_item {
-        margin-left: 55px;
-        margin-top: 4vh;
-        width: 44vh;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 15vh;
+        width: 38vh;
         height: 50vh;
         background-color: #ccc;
         border-radius: 20px;
@@ -227,32 +216,6 @@ body {
             &:hover {
                 background-color: #797171;
             }
-        }
-    }
-}
-.footer {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    top: 10vh;
-    position: relative;
-    height: 15vh;
-    background-color: rgb(241, 248, 255);
-    .infostore {
-        margin-left: 20vh;
-        padding: 20px;
-        line-height: 19px;
-        text-align: left;
-    }
-    .license {
-        margin-left: 65vh;
-    }
-    .infostore2 {
-        margin-left: 1600px;
-        margin-top: -120px;
-        .iconsc {
-            margin-left: 2vh;
-            vertical-align: top;
         }
     }
 }
